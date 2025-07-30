@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     fetchMenu() {
-      fetch('http://localhost:3000/api/menu')
+      fetch('https://mealmate-1-3939.onrender.com/api/menu')
         .then(res => res.json())
         .then(data => {
           this.menu.meals = data.meals || [];
@@ -58,12 +58,12 @@ export default {
     },
 
     removeMeal(idMeal) {
-      fetch(`http://localhost:3000/api/menu/${idMeal}`, { method: 'DELETE' })
+      fetch(`https://mealmate-1-3939.onrender.com/api/menu/${idMeal}`, { method: 'DELETE' })
         .then(() => this.fetchMenu());
     },
 
     updateNote() {
-      fetch('http://localhost:3000/api/menu/note', {
+      fetch('https://mealmate-1-3939.onrender.com/api/menu/note', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ note: this.menu.note }),
