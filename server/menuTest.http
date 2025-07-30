@@ -1,0 +1,13 @@
+### Tạo món ăn mới (POST)
+POST http://localhost:3000/api/menu
+Content-Type: application/json
+
+{
+  "idMeal": "12345",
+  "strMeal": "Bún bò Huế",
+  "strMealThumb": "https://www.themealdb.com/images/media/meals/1520084413.jpg",
+  "note": "Món này ăn khi trời mưa thì tuyệt!"
+}
+
+### Lấy danh sách menu (GET)
+GET http://localhost:3000/api/menu
