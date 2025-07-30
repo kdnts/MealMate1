@@ -131,7 +131,7 @@ export default {
       const data = await res.json();
       const meal = data.meals[0];
 
-      await fetch("http://localhost:3000/api/menu", {
+      await fetch("https://mealmate1-0z1s.onrender.com/api/menu", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
