@@ -1,7 +1,7 @@
 <template>
   <div class="search-view">
     <div class="side-nav">
-      <img src="client\src\assets\LOGO.jpg" alt="Profile Picture" />
+      <img src="https://sdmntprwestus.oaiusercontent.com/files/00000000-ea70-6230-8692-033da3813955/raw?se=2025-08-03T18%3A54%3A46Z&sp=r&sv=2024-08-04&sr=b&scid=b5b1aca5-b50d-5e0a-a104-c3170f2b9b8f&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-03T12%3A09%3A05Z&ske=2025-08-04T12%3A09%3A05Z&sks=b&skv=2024-08-04&sig=mxTEgr5zfpY9MokmS64U5IQGNLpP3DgD8H%2Bj2PNMFfo%3D" alt="Profile Picture" />
       <div class="menu">
         <button class="side-nav-btn" @click="goToMain">Main Menu</button>
         <button class="side-nav-btn" @click="goToMenu">Your Meal Plan</button>
