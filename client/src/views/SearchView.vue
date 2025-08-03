@@ -1,7 +1,7 @@
 <template>
   <div class="search-view">
     <div class="side-nav">
-      <img src="https://via.placeholder.com/250x150" alt="Profile Picture" />
+      <img src="client\src\assets\LOGO.jpg" alt="Profile Picture" />
       <div class="menu">
         <button class="side-nav-btn" @click="goToMain">Main Menu</button>
         <button class="side-nav-btn" @click="goToMenu">Your Meal Plan</button>
