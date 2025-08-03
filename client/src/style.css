@@ -246,6 +246,9 @@ body {
     border-radius: 50%;
     margin-bottom: 16px;
     border-bottom: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .side-nav .menu {
